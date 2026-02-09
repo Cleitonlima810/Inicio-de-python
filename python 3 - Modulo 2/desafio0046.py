@@ -4,9 +4,9 @@ print('-=-'*20)
 print('CONTAGEM REGRESSIVA')
 print('-=-'*20)
 
-for c in range(1, 10+1):
+for c in range(10, -1, -1):
     print(c)
-    sleep(1)
+    sleep(0.5)
 print('-=-'*20)
-print('\033[1;34;40mBUM\033[m')
+print('\033[1;34;40mBUM! BUM! POOOW!\033[m')
 print('-=-'*20)
